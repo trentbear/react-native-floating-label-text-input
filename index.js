@@ -96,7 +96,6 @@ class FloatLabelTextField extends Component {
     return (
       <View style={styles.container}>
         <View style={styles.viewContainer}>
-          <View style={styles.paddingView} />
           <View
             style={{
               ...this.props.style,
