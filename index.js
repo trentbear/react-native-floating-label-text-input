@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 
 import {
-  StyleSheet,
   Text,
   View,
   TextInput,
@@ -186,6 +185,7 @@ class FloatLabelTextField extends Component {
 const styles = {
   container: {
     flex: 1,
+    height: 45,
     justifyContent: 'center'
   },
   viewContainer: {
